@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <title>Reklamowy Tycoon – Promora</title>
+    <meta name="description" content="Rozwijaj własny serwer reklamowy od zera do 10 milionów członków! Gra idle/tycoon od Promora." />
+    <meta name="robots" content="index, follow" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#5262d4" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Promora Tycoon" />
+    <link rel="apple-touch-icon" href="promora-logo.png" />
+    <meta property="og:title" content="Reklamowy Tycoon – Promora" />
+    <meta property="og:description" content="Rozwijaj własny serwer reklamowy od zera do 10 milionów członków!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="opengraph.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Reklamowy Tycoon – Promora" />
+    <meta name="twitter:description" content="Rozwijaj własny serwer reklamowy od zera do 10 milionów członków!" />
+    <meta name="twitter:image" content="opengraph.png" />
+    <link rel="icon" href="promora-logo.png" />
+    <script type="module" crossorigin src="./assets/index-CIeLMvgc.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BwFm3cmp.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js');
+        });
+      }
+    </script>
+  </body>
+</html>
